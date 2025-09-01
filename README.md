@@ -28,10 +28,10 @@ A simple chatbot application built with **LangChain**, **OpenAI**, and **Streaml
 ---
 
 ## 📂 Project Structure
-├── document_rag.py # Main Streamlit app
-├── requirements.txt # Dependencies
-├── .env # API key (not committed to GitHub)
-└── README.md # Project documentation
+├── document_rag.py # Main Streamlit app<br>
+├── requirements.txt # Dependencies<br>
+├── .env # API key (not committed to GitHub)<br>
+└── README.md # Project documentation<br>
 
 
 ---
