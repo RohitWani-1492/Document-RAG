@@ -38,28 +38,28 @@ A simple chatbot application built with **LangChain**, **OpenAI**, and **Streaml
 
 ## ⚙️ Installation & Setup
 
-1. **Clone this repository**
-   git clone https://github.com/RohitWani-1492/DOCUMENT-RAG.git
-   cd DOCUMENT-RAG
+1. **Clone this repository**<br>
+   - git clone https://github.com/RohitWani-1492/DOCUMENT-RAG.git
+   - cd DOCUMENT-RAG
    
-2. **Create a virtual environment**
-   python -m venv venv
-   source venv/bin/activate   # Mac/Linux
-   venv\Scripts\activate      # Windows
+2. **Create a virtual environment**<br>
+  - python -m venv venv
+  - source venv/bin/activate   # Mac/Linux
+  - venv\Scripts\activate      # Windows
    
-3. **Install dependencies**
-   pip install -r requirements.txt
+3. **Install dependencies**<br>
+   - pip install -r requirements.txt
 
-4. **Add your OpenAI API key**
-   Create a .env file in the project root.
-   Add the following line:
+4. **Add your OpenAI API key**<br>
+   - Create a .env file in the project root.
+   - Add the following line:<br>
       OPENAI_API_KEY=your_api_key_here
 
-5. **Run the Streamlit app**
-    streamlit run document_rag.py
+5. **Run the Streamlit app**<br>
+   - streamlit run document_rag.py
 
-6. **Open in browser**
-    The app will run at: http://localhost:8501
+6. **Open in browser**<br>
+   -  The app will run at: http://localhost:8501
 
 ## 📖 How It Works
 
@@ -68,7 +68,7 @@ A simple chatbot application built with **LangChain**, **OpenAI**, and **Streaml
 3. When you ask a question:
 4. Relevant chunks are retrieved using similarity search.
 5. Context + your question are passed to the LLM.
-6.The chatbot generates a contextual answer.
+6. The chatbot generates a contextual answer.
 
 ## Demo Screenshot
 
