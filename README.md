@@ -39,16 +39,20 @@ A simple chatbot application built with **LangChain**, **OpenAI**, and **Streaml
 ## ⚙️ Installation & Setup
 
 1. **Clone this repository**<br>
-   - git clone https://github.com/RohitWani-1492/DOCUMENT-RAG.git
-   - cd DOCUMENT-RAG
-   
+```
+     git clone https://github.com/RohitWani-1492/DOCUMENT-RAG.git
+     cd DOCUMENT-RAG
+```
 2. **Create a virtual environment**<br>
-  - python -m venv venv
-  - source venv/bin/activate   # Mac/Linux
-  - venv\Scripts\activate      # Windows
-   
+  ```
+    python -m venv venv
+    source venv/bin/activate   # Mac/Linux
+    venv\Scripts\activate      # Windows
+   ```
 3. **Install dependencies**<br>
-   - pip install -r requirements.txt
+```
+   pip install -r requirements.txt
+```
 
 4. **Add your OpenAI API key**<br>
    - Create a .env file in the project root.
@@ -56,8 +60,9 @@ A simple chatbot application built with **LangChain**, **OpenAI**, and **Streaml
       OPENAI_API_KEY=your_api_key_here
 
 5. **Run the Streamlit app**<br>
-   - streamlit run document_rag.py
-
+```
+   streamlit run document_rag.py
+```
 6. **Open in browser**<br>
    -  The app will run at: http://localhost:8501
 
